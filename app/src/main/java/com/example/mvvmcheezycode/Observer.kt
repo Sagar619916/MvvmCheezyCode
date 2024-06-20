@@ -4,6 +4,8 @@ import android.util.Log
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 
+/*This will keep on observing the Lifecycle of MainActivity where it is registered.
+* */
 class Observer: DefaultLifecycleObserver {
    override fun onCreate(owner: LifecycleOwner){
         Log.d("MAIN","Observer - ON CREATE")
